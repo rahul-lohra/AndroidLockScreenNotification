@@ -39,6 +39,15 @@ The goal is to simulate real-world use cases like **incoming call UIs**, **alarm
   ```kotlin
   setFullScreenIntent(pendingIntent, true)
   ```
+- 
+- Includes required permission for posting notification:
+```xml
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+```
+- Includes required permission for full-screen behavior:
+```xml
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+```
 - Configured proper `NotificationChannel` for high-importance alerts.
 - The full-screen activity has these flags to ensure it shows over lock:
   ```xml
@@ -61,7 +70,7 @@ The goal is to simulate real-world use cases like **incoming call UIs**, **alarm
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/fullscreen-intent-sample.git
+   git clone https://github.com/rahul-lohra/AndroidLockScreenNotification.git
    ```
 
 2. Open in Android Studio and run on a physical/emulated device.
