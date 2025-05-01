@@ -39,7 +39,6 @@ The goal is to simulate real-world use cases like **incoming call UIs**, **alarm
   ```kotlin
   setFullScreenIntent(pendingIntent, true)
   ```
-- 
 - Includes required permission for posting notification:
 ```xml
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
