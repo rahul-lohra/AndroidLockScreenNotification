@@ -29,7 +29,7 @@ The goal is to simulate real-world use cases like **incoming call UIs**, **alarm
 
 ## 📸 Preview
 
-![Full-screen intent demo](videos/recording.mov)
+![Full-screen intent demo](videos/recording.gif)
 
 ---
 
