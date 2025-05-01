@@ -1,7 +1,3 @@
-Here's a polished and professional `README.md` for your Android repository:
-
----
-
 # 🔒 Full-Screen Intent Over Lock Screen – Android Sample
 
 This is a minimal Android sample demonstrating how to launch a **full-screen activity over the lock screen** using a local notification and intent.
